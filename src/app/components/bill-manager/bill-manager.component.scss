@@ -52,11 +52,12 @@
   box-shadow: 2px 2px 2px 2px #327081, -2px  -2px 2px 2px #327081;
   margin:5%;
   padding-top: .2%;
+  background: linear-gradient(135deg, #65bca3 0%, #327081 100%);
 
 }
 
 table {
-  background: linear-gradient(135deg, #65bca3 0%, #327081 100%);
+
   width: 90%;
   margin-top: 3%;
   margin-left: 5%
@@ -64,9 +65,11 @@ table {
 
 
 table td {
+  border-bottom: 2px solid black;
   font-weight: 400;
   text-align: left;
   margin: 10%;
+  padding-bottom: 2%;
 }
 .bill-amount {
   color: white;
