@@ -4,10 +4,8 @@ nav{
     padding: 20px 0  30px 0;
     ul{
         display: flex;
-        
-        
     }
-    
+
     li{
         list-style-type: none;
         margin-right: 15px;
@@ -19,7 +17,7 @@ nav{
 
     }
 
-   
+
     .menu{
         margin-left: 80px;
     }
@@ -30,7 +28,7 @@ nav{
         display: flex;
         margin-left: 100px;
     }
-    .logo1, .logo{      
+    .logo1, .logo{
         height: 70px;
         width: 121.4px;
         object-fit: contain;
@@ -48,7 +46,7 @@ nav{
             border: 1px solid #022218;
             border-radius: 5px;
         }
-       
+
     }
     .signin {
         a{
@@ -60,6 +58,4 @@ nav{
         }
     }
 
-    
-}
-
+  }
