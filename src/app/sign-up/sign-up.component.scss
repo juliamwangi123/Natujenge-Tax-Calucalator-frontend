@@ -1,0 +1,89 @@
+body{
+    box-sizing: border-box;
+    margin: 0px auto;
+    padding: 20px;
+    position: relative;
+    width: 1728px;
+    height: 1117px;
+    background: #FFFFFF;
+}
+form{
+    background-color:white;
+    width: 50%;
+    max-width: 500px;
+    min-width: 300px;
+    padding: 50px;
+    float: left;
+    clear: none;
+    margin: 30px auto;
+}
+fieldset{
+    border:none;
+}
+#email,#name,#password {
+    margin: 10px 0 0 0;
+    width: 460px;
+    min-width: 300px;
+    min-height: 2em;
+}
+input[type="submit"] {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+    background: #1CB484;
+    border-radius: 5px;
+    width: 460px;
+    min-width: 300px;
+  }
+  
+.sign-up{
+    float: left;
+    clear: both;
+    width: 500px;
+    padding: 50px 50px;
+}
+.welcome{
+    padding:20px 20px;
+}
+.top{
+    width: 211px;
+    height: 80px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #1CB484;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: #032017;
+}
+.oyf{
+width: 211px;
+height: 80px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 40px;
+display: flex;
+align-items: center;
+color: #1CB484;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+a{
+    color: #1CB484;
+}
+.words{
+    background-color: rgba(0, 10, 4, 0.4);;
+}
+
