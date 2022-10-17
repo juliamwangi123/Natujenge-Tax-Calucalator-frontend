@@ -1,0 +1,59 @@
+#home{
+    height: 100vh;
+    background: linear-gradient(135deg, #92FFC0 0%, #002661 100%);
+}
+#hero{
+    
+    margin: 50px 100px  0 140px ;
+    font-family: "jost";
+    display: flex;
+    
+
+    .content {
+        width: 50%;
+       p:first-child{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 37px;
+        color: #022218;
+        margin-top: 20px;
+
+        }
+        p:nth-child(2){
+            color:  #F1F1F1;
+            font-size: 28px;
+            margin-top: 10px;
+
+        }
+        p:last-child{
+            margin-top: 40px;
+
+            a{
+                text-decoration: none;
+                background:   rgba(2, 34, 24, 0.8);
+                border: 1px solid #022218;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+                backdrop-filter: blur(5px);
+                border-radius: 8px;
+                padding: 8px;
+                color: #F1F1F1
+
+
+               
+            }
+        }
+        
+    }
+
+    .hero_image{
+        width: 50%;
+
+        img{
+            height: 100%;
+            width: 80%
+        }
+    }
+
+
+}

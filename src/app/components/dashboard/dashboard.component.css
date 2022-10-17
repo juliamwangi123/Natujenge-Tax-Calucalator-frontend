@@ -1,0 +1,124 @@
+#dashboard {
+  height: 100vh;
+}
+#dashboard .navbar {
+  margin-bottom: 10px;
+}
+#dashboard .top {
+  background: linear-gradient(135deg, #92FFC0 0%, #002661 100%);
+  height: 21%;
+}
+#dashboard .content, #dashboard .buttons {
+  margin-left: 190px;
+  display: flex;
+}
+#dashboard .content p:first-child {
+  font-weight: 600;
+  margin-top: 25px;
+  font-size: 28px;
+}
+#dashboard .content p:last-child {
+  margin-top: 25px;
+  font-weight: 600;
+  margin-left: 100px;
+}
+#dashboard .buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 70px;
+  margin-bottom: 30px;
+}
+#dashboard .buttons button {
+  background: #022218;
+  color: white;
+  border-radius: 25px;
+  width: 90px;
+  height: 2rem;
+  border: none;
+}
+#dashboard .buttons button:last-child {
+  background: #92FFC0;
+  color: #022218;
+}
+#dashboard .deduction {
+  height: 53%;
+  margin: 30px 150px;
+  display: flex;
+}
+#dashboard .slip {
+  width: 50%;
+  height: 100%;
+}
+#dashboard .slip h4 {
+  color: #1CB484;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#dashboard .graph {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#dashboard .graph img {
+  height: 60%;
+}
+#dashboard .period {
+  display: flex;
+  gap: 30px;
+}
+#dashboard .period p {
+  border: 1px solid #1CB484;
+  padding: 5px 10px;
+  border-radius: 25px;
+  color: #1CB484;
+}
+#dashboard hr {
+  background-color: #1CB484;
+  height: 1px;
+  width: 90%;
+  margin-top: 10px;
+  border: none;
+}
+#dashboard .main-deductions, #dashboard .totals, #dashboard .marginal {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  color: #022218;
+  font-size: 14px;
+}
+#dashboard .salo, #dashboard .totals {
+  color: #1CB484;
+  font-weight: 600;
+}
+#dashboard .button_graph {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  color: white;
+  font-size: 15px;
+}
+#dashboard .button_graph p:first-child {
+  background-color: #022218;
+  padding: 5px 10px;
+}
+#dashboard .button_graph p:last-child {
+  background-color: #1CB484;
+  padding: 5px 10px;
+}
+#dashboard footer {
+  border-top: 1px solid #1CB484;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#dashboard .btn1 {
+  position: relative;
+  top: -4px;
+}
+#dashboard .icons img {
+  height: 20px;
+}/*# sourceMappingURL=dashboard.component.css.map */
