@@ -7,6 +7,9 @@ import { HomeComponent } from './components/home/home.component';
 import { BillmanagerComponent } from './components/billmanager/billmanager.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +17,14 @@ import { AppRoutingModule } from './app-routing.module';
     NavbarComponent,
     HomeComponent,
     BillmanagerComponent,
-    DashboardComponent
+    DashboardComponent,
+    SignUpComponent,
+    SignInComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
