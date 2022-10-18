@@ -1,0 +1,84 @@
+.container {
+  margin: 0% 20% 0% 15%;
+  padding: .5% 5%;
+  align-items: center;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+.nav span{
+   box-sizing: border-box;
+   display: inline-block;
+   font-size: 20px;
+   padding: .5em;
+   margin: 0% 5% 5% 4%;
+}
+.nav .tax-nav{
+    background-color: #418381;
+    box-shadow: 1px 1px 1px;
+    box-sizing: border-box;
+    border:none;
+}
+.nav .bill-nav{
+   border: 2px solid black;
+}
+.net-sal{
+  padding: 1%;
+  margin-left: 4%
+}
+.net-sal p{
+  margin-bottom: 3%;
+  display: inline-block;
+}
+
+.ksh-span, .amount{
+  border:2px solid black;
+}
+.ksh-span{
+  background-color: #336156;
+  padding: 1% 5% 1% 5%;
+}
+.amount{
+  text-align: center;
+  padding: 1% 35% 1% 35%;
+}
+
+
+/*bills table CSS*/
+.billingTable{
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px 2px #327081, -2px  -2px 2px 2px #327081;
+  margin:5%;
+  padding-top: .2%;
+  background: linear-gradient(135deg, #65bca3 0%, #327081 100%);
+
+}
+
+table {
+
+  width: 90%;
+  margin-top: 3%;
+  margin-left: 5%
+}
+
+
+table td {
+  border-bottom: 2px solid black;
+  font-weight: 400;
+  text-align: left;
+  margin: 10%;
+  padding-bottom: 2%;
+}
+.bill-amount {
+  color: white;
+}
+.addBills-btn{
+  background-color: #92ffc0;
+  border-radius: 4px ;
+  padding: 1%;
+  border: none;
+  margin:2% 0% 1% 5%;
+  font-weight: bolder;
+}

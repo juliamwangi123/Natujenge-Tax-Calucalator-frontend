@@ -1,0 +1,72 @@
+<div class ="container">
+  <div class="nav">
+    <span class="bill-nav">Bill Manager</span>
+    <span class="tax-nav">Tax calculator</span>
+  </div>
+  <div class="net-sal">
+    <p><b>Net Salary</b></p>
+      <div class ="sal">
+        <span class="ksh-span">Ksh</span>
+        <span class="amount bill-amount">38,000</span>
+      </div>
+  </div>
+  <div class="billingTable">
+    <table>
+      <!-- table -->
+      <tbody id="myTable">
+        <tr>
+          <td>
+            <b>Food</b>
+          </td>
+          <td class="bill-amount">Ksh. 4000</td>
+          <td class="action">
+
+            <a id="#" class="t-edit">
+              <fa-icon [icon]="editIcon"></fa-icon>
+            </a>
+          </td>
+          <td>
+              <a id="#" class="t-delete">
+              <fa-icon [icon]="deleteIcon"></fa-icon>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td><b>Rent</b></td>
+          <td class="bill-amount">Ksh. 12000</td>
+          <td class="action">
+            <a id="#" class="t-edit">
+              <fa-icon [icon]="editIcon"></fa-icon>
+            </a>
+          </td>
+          <td>
+            <a id="#" class="t-delete">
+              <fa-icon [icon]="deleteIcon"></fa-icon>
+            </a>
+          </td>
+
+        </tr>
+        <tr>
+          <td><b>Shopping</b></td>
+          <td class="bill-amount">Ksh. 4500</td>
+          <td class="action">
+            <a id="#" class="t-edit">
+              <fa-icon [icon]="editIcon"></fa-icon>
+            </a>
+          </td>
+          <td>
+            <a id="#" class="t-delete">
+              <fa-icon [icon]="deleteIcon"></fa-icon>
+            </a>
+          </td>
+
+        </tr>
+
+      </tbody>
+    </table>
+    <button class="addBills-btn">Add Bills</button>
+  </div>
+
+
+</div>
+
