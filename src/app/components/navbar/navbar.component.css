@@ -1,0 +1,54 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 30px 0;
+  align-items: center;
+  height: 69px;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  list-style-type: none;
+  margin-right: 15px;
+  margin-top: 25px;
+}
+nav a {
+  text-decoration: none;
+  color: #022218;
+}
+nav .menu {
+  margin-left: 80px;
+  margin-top: 7px;
+}
+nav .navbar_buttons {
+  margin-right: 100px;
+}
+nav .logos {
+  display: flex;
+  margin-left: 100px;
+}
+nav .logo1, nav .logo {
+  height: 60px;
+  width: 121.4px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-top: 10px;
+}
+nav .logo {
+  position: relative;
+  right: 5%;
+  top: 15%;
+}
+nav .signup a {
+  padding: 7px;
+  background: rgba(2, 34, 24, 0.4);
+  border: 1px solid #022218;
+  border-radius: 5px;
+}
+nav .signin a {
+  padding: 7px;
+  background: #1CB484;
+  border-radius: 5px;
+  color: white;
+}/*# sourceMappingURL=navbar.component.css.map */
