@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import {faTrashCan,faPenToSquare} from '@fortawesome/free-regular-svg-icons'
+// import {faTrashCan,faPenToSquare} from '@fortawesome/free-regular-svg-icons'
 
 @Component({
   selector: 'app-bill-manager',
@@ -15,7 +15,7 @@ export class BillManagerComponent implements OnInit {
   }
 
 
-  deleteIcon = faTrashCan;
-  editIcon = faPenToSquare;
+  // deleteIcon = faTrashCan;
+  // editIcon = faPenToSquare;
 
 }
