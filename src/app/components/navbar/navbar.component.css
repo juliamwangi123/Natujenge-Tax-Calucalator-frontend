@@ -2,6 +2,8 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 20px 0 30px 0;
+  align-items: center;
+  height: 69px;
 }
 nav ul {
   display: flex;
@@ -17,6 +19,7 @@ nav a {
 }
 nav .menu {
   margin-left: 80px;
+  margin-top: 7px;
 }
 nav .navbar_buttons {
   margin-right: 100px;
@@ -26,14 +29,16 @@ nav .logos {
   margin-left: 100px;
 }
 nav .logo1, nav .logo {
-  height: 70px;
+  height: 60px;
   width: 121.4px;
   -o-object-fit: contain;
      object-fit: contain;
+  margin-top: 10px;
 }
 nav .logo {
   position: relative;
-  right: 6%;
+  right: 5%;
+  top: 15%;
 }
 nav .signup a {
   padding: 7px;
